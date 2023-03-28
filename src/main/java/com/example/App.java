@@ -30,7 +30,6 @@ public class App
 {
 
     public static String createToken(String apiKey, String secretKey){
-    //   AccessToken token = new AccessToken("API3wGw4ma49quv", "yeqkJPY8M4x7IUduKXYXpGRAy2zB66YmzDa87ikR7dE");
 	AccessToken token = new AccessToken(apiKey, secretKey);
 	token.setName("zyc123");
     //   token.setIdentity("admin");
