@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.example.App",
+            "projectName": "demo"
+        },
+        {
+            "name": "Java: Current File",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "com.morning.Main",
+            "vmArgs": "-Dfile.encoding=UTF-8 -Dserver.port=9203 "
+        }
+    ]
+}
